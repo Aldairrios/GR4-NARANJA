@@ -1,0 +1,23 @@
+@model Naranj.Models.Producto
+
+@{
+    ViewData["Title"] = "Ultimo Producto de la sesion";
+}
+
+    <h1>@ViewData</h1>
+    <div class="container">
+        <div class="col-sm-4">
+            <div class="card mb-3">
+                <div class="card body">
+                    <div class="img-responsive" width="96" heigth="150"
+                    src="@Html.DisplayFor(model => model.ImageURL)" />
+                    </div>
+                </div>
+                <div class="card body">
+                    <h5 class="card-title">@Html.DisplayFor(model => model.Name)</h5>
+                    <h5 class="card-title">@Html.DisplayFor(model => model.Price)</h5>
+                    <a class="btn btn-primary" asp-action="Add" asp-route-data-id="@Model.Id">Add</a>
+                </div>
+            </div>
+        </div>
+    </div>
