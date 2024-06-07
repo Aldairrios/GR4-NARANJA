@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Naranj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbbd228944c6754acb1b0b0ddb1b9c9b981631b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e2de1fe82784ecf4da15050e7d702ecb0b85db5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Naranj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Naranj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

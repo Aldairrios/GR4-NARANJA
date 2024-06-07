@@ -17,95 +17,99 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Naranj
 build_property.RootNamespace = Naranj
-build_property.ProjectDir = c:\Users\acer\Documents\GitHub\Naranj\
+build_property.ProjectDir = C:\Users\Aldair\Desktop\Nueva carpeta\Naranj\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\acer\Documents\GitHub\Naranj
+build_property.MSBuildProjectDirectory = C:\Users\Aldair\Desktop\Nueva carpeta\Naranj
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Views/Carrito/UltimoProducto.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Views/Carrito/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Views/Carrito/UltimoProducto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xVbHRpbW9Qcm9kdWN0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Views/Catalogo/Details.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Views/Catalogo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Views/Catalogo/index.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Views/Catalogo/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29caW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Views/Contacto/index.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Views/Contacto/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdG9caW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Views/Home/Index.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Views/Home/Privacy.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Views/Shared/Error.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Views/_ViewImports.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Views/_ViewStart.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/acer/Documents/GitHub/Naranj/Views/Shared/_Layout.cshtml]
+[C:/Users/Aldair/Desktop/Nueva carpeta/Naranj/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0temptir4y

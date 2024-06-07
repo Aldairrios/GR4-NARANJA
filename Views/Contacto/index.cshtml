@@ -1,27 +1,70 @@
 @model Naranj.Models.Contacto
 
-<h2>contacto</h2>
+<h2>Contacto</h2>
 
-@using (Html.BeginForm("EnviarMensaje", "Contacto", FormMethod.Post))
+<form id="comentarioForm1" asp-action="Comentario" method="post">
+@using (Html.BeginForm("EnviarMensaje", "Contacto", FormMethod.Post, new { id = "formularioContacto" }))
 {
     <div class="form-group">
         @Html.LabelFor(model => model.Name)
-        @Html.TextBoxFor(model => model.Name, new {@class = "form-control"})
-        @Html.ValidationMessageFor(model => model.Name)
+        @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.Name)</span>
     </div>
 
     <div class="form-group">
         @Html.LabelFor(model => model.Email)
-        @Html.TextBoxFor(model => model.Email, new {@class = "form-control"})
-        @Html.ValidationMessageFor(model => model.Email)
+        @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.Email)</span>
     </div>
 
     <div class="form-group">
         @Html.LabelFor(model => model.Message)
-        @Html.TextBoxFor(model => model.Message, new {@class = "form-control"})
-        @Html.ValidationMessageFor(model => model.Message)
+        @Html.TextBoxFor(model => model.Message, new { @class = "form-control" })
+        <span class="text-danger">@Html.ValidationMessageFor(model => model.Message)</span>
     </div>
-    <button type="submit" class="btn btn-primary">Enviar</button>
-}
 
-<h1>@ViewData["Message"]</h1>
+    <button id="comentarBtn" style="background: rgb(192, 163, 110); border: red;" type="submit" class="btn btn-primary">enviar</button>
+}
+</form>
+
+
+<!-- Formulario de comentarios en inglés -->
+<h2>Comentarios en inglés</h2>
+<form id="comentarioForm2" asp-action="Comentario" method="post">
+    <div class="form-group">
+        <label style="color:white" for="comentario">Comentario en inglés:</label>
+        <textarea class="form-control" id="comentario" name="comentario" rows="5" required></textarea>
+    </div>
+    <br>
+    <button id="comentarBtn" style="background: rgb(192, 163, 110); border: red;" type="submit" class="btn btn-secondary">Comentar</button>
+</form>
+
+<!-- Estilo -->
+<style>
+    body {
+        width: 100%;
+        background-color: #56cdd1;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 25%;
+    }
+
+    h2 {
+        color: rgb(238, 238, 181);
+        text-align: center;
+    }
+
+    label {
+        color: white;
+    }
+
+    button {
+        width: 120px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .text-danger {
+        color: red;
+    }
+</style>

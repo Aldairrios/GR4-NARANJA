@@ -4,7 +4,6 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.Extensions.Logging;
 using Naranj.Models;
 using Naranj.Data;
@@ -14,36 +13,44 @@ namespace Naranj.Controllers
     public class ContactoController : Controller
     {
         private readonly ILogger<ContactoController> _logger;
-
         private readonly ApplicationDbContext _context;
-      public ContactoController(ILogger<ContactoController> logger,ApplicationDbContext context)
-      {
-        _logger = logger;
-        _context = context;
-      }  
-      public IActionResult Index()
-      {
-        return View();
-      }
 
+        public ContactoController(ILogger<ContactoController> logger, ApplicationDbContext context)
+        {
+            _logger = logger;
+            _context = context;
+        }  
 
-    [HttpPost]
-    public IActionResult EnviarMensaje(Contacto objcontacto)
-      {
-        _logger.LogDebug("Ingreso a Enviar Mensaje");
+        public IActionResult Index()
+        {
+            return View();
+        }
 
-        _context.Add(objcontacto);
-        _context.SaveChanges();
+        [HttpPost]
+        public IActionResult EnviarMensaje(Contacto objcontacto)
+        {
+            _logger.LogDebug("Ingreso a Enviar Mensaje");
 
-        ViewData["Message"]="Se registro el contacto";
+            _context.Add(objcontacto);
+            _context.SaveChanges();
 
-        return View("Index");
-      }
+            // Devuelve un mensaje de confirmación
+            return Json(new { message = "¡Mensaje de contacto enviado con éxito!" });
+        }
 
-      [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-      public IActionResult Error()
-      {
-        return View("Error!");
-      }
+        [HttpPost]
+        public IActionResult Comentario(string comentario)
+        {
+            // Procesar el comentario aquí si es necesario
+            
+            // Devolver un mensaje de confirmación al cliente
+            return Json(new { message = "¡Comentario enviado con éxito!" });
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View("Error!");
+        }
     }
 }

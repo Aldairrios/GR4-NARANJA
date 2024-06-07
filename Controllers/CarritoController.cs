@@ -11,7 +11,6 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Dynamic;
 
-
 namespace Naranj.Controllers
 {
     public class CarritoController : Controller
